@@ -1,4 +1,4 @@
-import {ProductItemProps} from '../../interfaces/IProduct';
+import {ProductItemProps} from '../../../interfaces/IProduct.ts';
 import './ProductItem.css';
 import {useState} from "react";
 

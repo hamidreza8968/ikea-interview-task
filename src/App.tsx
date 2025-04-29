@@ -1,5 +1,5 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import Products from './pages/products/products.tsx';
+import Products from "./components/Products/products.tsx";
 
 const queryClient = new QueryClient();
 

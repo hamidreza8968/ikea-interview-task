@@ -1,4 +1,4 @@
-import { ProductListProps } from '../../interfaces/IProduct.ts';
+import { ProductListProps } from '../../../interfaces/IProduct.ts';
 import './ProductList.css';
 import ProductItem from "../ProductItem/ProductItem.tsx";
 
