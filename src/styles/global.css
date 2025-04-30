@@ -1,0 +1,54 @@
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    margin-inline: auto;
+    padding-inline: 1rem;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.loading,
+.error,
+.no-search-results {
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 3.125rem;
+}
+
+@media (min-width: 36rem) {
+    .container {
+        max-width: 33.75rem;
+    }
+}
+
+@media (min-width: 48rem) {
+    .container {
+        max-width: 45rem;
+    }
+}
+
+@media (min-width: 62rem) {
+    .container {
+        max-width: 60rem;
+    }
+}
+
+@media (min-width: 75rem) {
+    .container {
+        max-width: 71.25rem;
+    }
+}
