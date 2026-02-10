@@ -13,6 +13,7 @@ const ProductList= ({ products } : ProductListProps) => {
     fastFn(6,5);
     fastFn(2,5);
     fastFn(2,5);
+    fastFn(2,8);
 
     return (
         <div className="product-grid">
